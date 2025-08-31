@@ -7,6 +7,5 @@ fn main() {
     info!("Tracing initialized");
     warn!("Something went wrong!");
     debug!("Something happened");
-    trace!("Something happened trace");
     error!("This is an error");
 }
