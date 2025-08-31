@@ -3,6 +3,10 @@
 version = 4
 
 [[package]]
+name = "Rust"
+version = "0.1.0"
+
+[[package]]
 name = "android-tzdata"
 version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -265,6 +269,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "rust-axum"
+version = "0.1.0"
+
+[[package]]
 name = "rust-jsonwebtoken"
 version = "0.1.0"
 dependencies = [
@@ -275,6 +283,10 @@ dependencies = [
  "thiserror",
  "ulid",
 ]
+
+[[package]]
+name = "rust-sqlx"
+version = "0.1.0"
 
 [[package]]
 name = "rustversion"
