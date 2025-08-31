@@ -28,6 +28,6 @@ pub fn init() {
 /// Prelude: re-export macros and types from the `tracing` crate for convenience
 pub mod prelude {
     pub use tracing::{
-        debug, error, info, trace, warn,
+        debug, error, info, warn,
     };
 }
