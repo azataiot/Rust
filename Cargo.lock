@@ -289,6 +289,10 @@ name = "rust-sqlx"
 version = "0.1.0"
 
 [[package]]
+name = "rust-tracing"
+version = "0.1.0"
+
+[[package]]
 name = "rustversion"
 version = "1.0.22"
 source = "registry+https://github.com/rust-lang/crates.io-index"
