@@ -1,0 +1,11 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      DATABASE_URL: "postgres://postgress:postgres@db:5432/postgres"
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
