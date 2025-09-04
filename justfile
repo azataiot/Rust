@@ -30,3 +30,7 @@ jsonwebtoken:
 # Run the tracing package
 tracing:
     cargo run -p rust-tracing
+
+# Run the rust-must-cross
+rust-musl-cross:
+    cargo run -p rust-musl-cross
